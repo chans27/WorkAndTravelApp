@@ -57,7 +57,7 @@ export default function App() {
         saveToDos(newToDos);
       }
     } else {
-      Alert.alert("Delete To Do", "Are you sure?", [
+      Alert.alert("Delete To Do", "Are you sure??", [
         { text: "Cancel" },
         {
           text: "I'm Sure",
